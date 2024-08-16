@@ -1,0 +1,25 @@
+.wrapper {
+    height: 800px;
+    width:100%;
+    margin:0px;
+    margin-right: 0%;
+    /* margin-left: 0%; */
+  }
+
+.wrapper h1{
+  margin-top: 300px;
+  margin-left:30px;
+  font-size: 50px;
+  color: #010101;
+  font-family: cursive;
+  font-weight: bolder;
+  
+}
+
+.wrapper h3{
+  margin-left:30px;
+  font-size: 30px;
+  color:white;
+  font-family: 'Montserrat', helvetica, sans-serif;
+  font-weight: bold;
+}

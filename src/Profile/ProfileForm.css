@@ -1,0 +1,79 @@
+.profileoutlet {
+    padding: 20px;
+    width: 40%;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #8d43c2; /* Dark purple background */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    color: white;
+    /* display: flex;
+    flex-direction: column; */
+
+}
+
+.profile-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-form input,
+.profile-form select,
+.profile-form button {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #6a0dad; /* Lighter purple border */
+    border-radius: 5px;
+    font-size: 1.1rem;
+    background-color: #c292e2; /* Darker purple background for inputs */
+    color: white;
+}
+
+.profile-form input:focus,
+.profile-form select:focus {
+    outline: none;
+    border-color: #da70d6; /* Lighter purple focus border */
+}
+
+.profile-form button {
+    background-color: #be90e7; /* Vibrant purple button */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.profile-form button:hover {
+    background-color: #763fe2; /* Light purple on hover */
+}
+
+.profile-form input::placeholder {
+    color: #d8bfd8; /* Light lavender for placeholder text */
+}
+
+.profile-form h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #dda0dd; /* Light pinkish-purple for heading */
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.profile-form select option {
+    background-color: #ab86c5; /* Match the form's purple theme */
+    color: white;
+}
+.p{
+    font-size:20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.b{
+    display: flex;
+    /* align-items: ; */
+    /* background-color: aqua; */
+    width: 80%;
+}

@@ -1,0 +1,67 @@
+.nutrition-page {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.filters {
+  width: 20%;
+  padding: 20px;
+  border-right: 2px solid #ddd;
+}
+
+.filters h2{
+  font-family: cursive;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.filters label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: 'Montserrat', helvetica, sans-serif;
+}
+
+.filters select,
+.filters input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: none;
+}
+
+.filters button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.filters button:hover {
+  background-color: #45a049;
+}
+
+.diet-plan-display {
+  width: 60%;
+  margin-top: 80px;
+  margin-left: 40px;
+  padding: 20px;
+  /* background-color: aliceblue; */
+}
+
+.diet-plan {
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.nutrition-bg{
+  width:810px;
+}
+
+.diet-plan-display p{
+  font-size: 17px;
+  font-family: 'Montserrat', helvetica, sans-serif;
+}

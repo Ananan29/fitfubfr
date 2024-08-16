@@ -1,0 +1,191 @@
+/* #root {
+  width: 100%;
+  margin: 0 ;
+  padding: 0;
+  height:100%;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.togglemode{
+  background-color: aqua;
+} */
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+
+#root {
+  /* width: 100%; */
+  margin: 0 ;
+  padding: 0;
+  height: 700px;
+  text-align: center;
+}
+/* .main-div{
+  background-color: #66FCF1;
+  width: max-content;
+  height: 100%;
+} */
+#light{
+  background-color: #f8f7ff;
+}
+
+#dark{
+  background-color:#222831;
+}
+
+#light .section a{
+  color: #7734e7;
+}
+
+#dark .section a{
+  color: white;
+}
+
+/* #light .form-group label{
+  color:#DEF2F1;
+} */
+
+#light .contact-h1{
+  text-shadow:  2px 2px 4px  #7734e7;
+  color: #010101; 
+}
+
+#dark .contact-h1{
+  text-shadow:  2px 2px 4px  #7734e7;
+  color: white; 
+}
+
+#light .mainhead1{
+  text-shadow:  2px 2px 4px  #7734e7;
+  color: #010101;
+}
+
+#dark .mainhead1{
+  text-shadow:  2px 2px 4px  #7734e7;
+  color: white;
+}
+
+#light .video-h1{
+  text-shadow:  2px 2px 4px  #7734e7;
+  color: #010101;
+}
+
+#dark .video-h1{
+  text-shadow:  2px 2px 4px  #7734e7;
+  color: white;
+}
+
+#light .testimonials-container h2 {
+  text-shadow:  2px 2px 4px  #7734e7;
+  color: #010101;  
+}
+
+#dark .testimonials-container h2 {
+  text-shadow: 2px 2px 4px  #7734e7;
+  color: white;
+
+}
+
+#dark .about-container{
+  color:white;
+}
+
+#light .navbar{
+  background-color:#fffeff;
+}
+
+#dark .navbar{
+  background-color:#010101;
+}
+
+
+
+#light .nb{
+  background-color:#7734e7;
+  color: #fffeff;
+}
+
+#dark .nb{
+  background-color:#7734e7;
+  color:white;
+}
+/* #light .footer{
+  background-color:#2B7A78;
+}
+#dark .footer{
+  background-color:#0B0C10;
+} */
+.logo {
+  height: 6em;
+  padding: 1.5em;
+	will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+.card {
+  padding: 2em;
+}
+.read-the-docs {
+  color: #888;
+}
+
+
+.togglemode{
+  background-color: aqua;
+}

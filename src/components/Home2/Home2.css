@@ -1,0 +1,48 @@
+/* Ensure the feature-container is responsive and centered */
+.feature-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 20px; /* Space between feature boxes */
+  }
+  
+  /* Style for individual feature boxes */
+  .feature-box {
+    background-color: #3FA2F6; /* Light background for the feature box */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px;
+    text-align: center;
+    max-width: 250px; /* Max width for responsiveness */
+    width: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition effects */
+  }
+  
+  /* Hover effect for feature boxes */
+  .feature-box:hover {
+    transform: translateY(-10px); /* Lift effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increased shadow on hover */
+  }
+  
+  /* Style for icons */
+  .feature-box .fa-icon {
+    color: #007bff; /* Blue color for the icons */
+    margin-bottom: 15px; /* Space between icon and title */
+  }
+  
+  /* Style for feature titles */
+  .feature-box h3 {
+    font-size: 1.5rem;
+    color: #333; /* Dark text for titles */
+    margin: 10px 0; /* Margin above and below the title */
+    font-weight: 600; /* Semi-bold font weight */
+  }
+  
+  /* Style for feature descriptions */
+  .feature-box p {
+    font-size: 1rem;
+    color: #A3FFD6; /* Light gray text for descriptions */
+    margin: 0; /* Remove default margin */
+  }
+  
